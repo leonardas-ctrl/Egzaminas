@@ -1,0 +1,90 @@
+.container {
+    width: 500px;
+    position: relative;
+    margin: 10vh auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(46, 42, 37);
+    color: white;
+   
+}
+
+.radioContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.radio {
+   display: flex;
+   flex-direction: column;
+}
+
+
+
+.form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #5f442b;
+
+}
+
+.img {
+    width: 40px;
+}
+
+
+
+.form input:focus-visible {
+    outline: none;
+    box-shadow: 0px 2px 4px rgba(78, 66, 248, 0.945);
+    scale: 1.03;
+    transition: all 0.3s ease-in-out ;
+}
+
+.form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #fafafa;
+    cursor: pointer;
+    background-color: rgb(73, 76, 250);
+    transition: all 0.3s ease;
+}
+
+.form button:hover {
+    background-color: rgb(25, 28, 197);
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.377);
+}
+
+.container > button {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border: none;
+    background-color: rgb(179, 0, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    scale: 1.5;
+    width: 20px;
+    height: 20px;
+    line-height: 0px;
+}
+
+.container > button:hover {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.377);
+}
